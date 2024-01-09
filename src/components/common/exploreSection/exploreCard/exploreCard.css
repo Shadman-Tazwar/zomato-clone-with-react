@@ -1,0 +1,225 @@
+.explore-card-container{
+    width: 350px;
+    height: fit-content;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+}
+
+.explore-card-container:hover{
+    border: 1px solid var(--primary-border-color);
+    box-shadow: var(--collection-border-shadow);
+}
+
+.explore-card-image-container{
+    width: 100%;
+    height: 248px;
+    cursor: pointer;
+    position: relative;
+    border-radius: 15px;
+}
+
+.explore-card-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.explore-card-discount{
+    color: var(--white);
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    width: fit-content;
+    height: 24px;
+    position: absolute;
+    bottom: 12px;
+    max-width: calc(100% - 24px);
+    display: flex;
+    align-items: center;
+}
+
+.explore-card-discount-offer{
+    background-color: var(--collection-discount-bg);
+    padding: 0 6px; 
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+.explore-card-golden-discount-content{
+    background: var(--gold-discount-bg);
+    padding: 0 6px; 
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+.explore-card-golden-discount{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 2px 50px 2px 14px;
+    font-weight: 500;
+}
+
+.explore-card-golden-discount-image{
+    width: 18px;
+    height: 18px;
+}
+
+/* Card Text */
+.explore-card-text-content{
+    cursor: pointer;
+}
+
+.explore-card-title-rating{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.explore-card-title{
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--header-title-color);
+    max-width: 80%;
+    margin: 8px 0 6px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.explore-card-rating{
+    font-size: 13px;
+    font-weight: 600;
+    max-width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: var(--rating-bg);
+    padding: 0 4px;
+    min-width: 26px;
+    color: var(--white);
+    border-radius: 6px;
+    border: 1px solid var(--rating-bg);
+    height: 20px;
+    cursor: default;
+}
+
+.explore-card-rating-number{
+    margin-right: 2px;
+}
+
+.explore-card-rating-star{
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.explore-card-items-price{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    font-size: 14px;
+}
+
+.explore-card-items{
+    font-size: inherit;
+    color: var(--inactive-text-color);
+    max-width: 56%;
+    padding-bottom: 4px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.explore-card-price{
+    font-size: inherit;
+    color: var(--inactive-text-color);
+    max-width: 30%;
+    padding-bottom: 4px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.explore-card-opening-delivery-time{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.explore-card-opening-time{
+    width: 75%;
+}
+
+.explore-card-opening-time div{
+    width: 100%;
+}
+
+.explore-card-restaurant-location{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: var(--filter-icon-color);
+    max-width: 100%;
+    padding: 0px 0px 4px;
+    font-size: 16px;
+}
+
+.explore-card-restaurant-time{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: var(--explore-card-time-color);
+    max-width: 100%;
+    padding: 0px 0px 4px;
+    font-size: 14px;
+}
+
+.explore-card-delivery-time{
+    width: 20%;
+    text-align: right;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--delivery-time-color);
+    padding: 0.2rem 0.5rem 0.3rem;;
+}
+
+.horizontal-line{
+    height: 1px;
+    margin: 1px 0 5px 0;
+    background-color: var(--primary-border-color);
+}
+
+.explore-card-footer-image-text{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.explore-card-footer-image{
+    width: 48px;
+    height: 18px;
+}
+
+.explore-card-footer-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.explore-card-footer-text{
+    margin-left: 10px;
+    color: var(--primary-color);
+    font-size: 12px;
+    font-weight: 500;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

@@ -1,0 +1,29 @@
+.top-restaurants-collection-container{
+    background-color: var(--inactive-bg-color);
+    padding: 15px 0 40px;
+}
+
+.top-restaurants-collection-header-content{
+    margin-bottom: 10px;
+}
+
+.top-restaurants-collection-header-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-restaurants-collection-header-text p{
+    font-size: 18px;
+    color: var(--delivery-time-color);
+    font-weight: 500;
+}
+
+.top-restaurants-collection-header-text a{
+    color: var(--top-restaurant-colection-color);
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 4px;
+}

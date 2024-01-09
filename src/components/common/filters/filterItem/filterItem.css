@@ -1,0 +1,26 @@
+.filter-item{
+    display: flex;
+    gap: 5px;
+    padding: 8px;
+    border: 1px solid var(--secondary-border-color);
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: var(--white);
+    margin: 10px 0;
+    box-shadow: var(--filter-border-shadow);
+}
+
+.filter-icon{
+    color: var(--filter-icon-color);
+    font-size: 15px;
+}
+
+.filter-name{
+    font-size: 15px;
+    color: var(--filter-icon-color);
+}
+
+.gold-icon{
+    width: 18px;
+    height: 18px;
+}

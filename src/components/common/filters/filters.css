@@ -1,0 +1,14 @@
+.filter{
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+    padding: 16px 0px;
+}
+
+.order-1{
+    order: 1;
+}
+
+.order-2{
+    order: 2;
+}
